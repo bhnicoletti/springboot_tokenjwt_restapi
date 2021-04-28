@@ -53,7 +53,7 @@ public class SecutiryConfig extends WebSecurityConfigurerAdapter {
                    .hasAnyRole("USER")
                 .antMatchers("/api/enderecos/**")
                    .hasAnyRole("USER")
-                .antMatchers("/api/pedidos/**")
+                .antMatchers("/api/vendas/**")
                    .hasAnyRole("USER")
                 .and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and().addFilterBefore(jwtFilter(), UsernamePasswordAuthenticationFilter.class);

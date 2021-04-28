@@ -42,6 +42,10 @@ public class Venda {
     @NotNull(message = "{venda.vlrTotal.invalido}")
     private BigDecimal vlrTotal;
 
+    @Enumerated(EnumType.STRING)
+    @Column(name = "status_venda")
+    private StatusVenda statusVenda;
+
     @PrePersist
     private void prePersist(){
         var formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");

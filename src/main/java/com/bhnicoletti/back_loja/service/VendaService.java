@@ -12,4 +12,6 @@ public interface VendaService {
     Venda exibirVenda(Integer id);
 
     List<Venda> listarTodasVendas();
+
+    void cancelarVenda(Integer id);
 }
