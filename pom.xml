@@ -12,7 +12,7 @@
     <artifactId>back_loja</artifactId>
     <version>1.0V</version>
     <name>back_loja</name>
-    <description>API com cadastro de produtos, clientes, funcionarios, e efetuar pedidos</description>
+    <description>API com cadastro de produtos, clientes, e efetuar vendas</description>
     <properties>
         <java.version>11</java.version>
     </properties>
